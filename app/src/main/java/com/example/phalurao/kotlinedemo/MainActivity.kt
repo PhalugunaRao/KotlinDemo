@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.TextView
 import android.widget.Toast
 import com.example.phalurao.kotlinedemo.listjson.ListAct
+import com.example.phalurao.kotlinedemo.volleyrequestpack.VolleyNewAct
 import kotlinx.android.synthetic.main.web_layout.view.*
 
 class MainActivity : AppCompatActivity() {
@@ -17,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         val listText=findViewById(R.id.list_view)as TextView
         webtext.setOnClickListener(object :View.OnClickListener{
             override fun onClick(v: View?) {
-                val intent = Intent(applicationContext,Webloading::class.java)
+                val intent = Intent(applicationContext, VolleyNewAct::class.java)
                 startActivity(intent)
             }
         })

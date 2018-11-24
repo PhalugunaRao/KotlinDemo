@@ -4,6 +4,7 @@
    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
     <application
+            android:name=".App"
             android:allowBackup="true"
             android:icon="@mipmap/ic_launcher"
             android:label="@string/app_name"
@@ -19,6 +20,7 @@
         </activity>
         <activity android:name=".Webloading"></activity>
         <activity android:name=".listjson.ListAct"></activity>
+        <activity android:name=".volleyrequestpack.VolleyNewAct"></activity>
     </application>
 
 </manifest>
