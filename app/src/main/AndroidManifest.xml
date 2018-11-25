@@ -21,6 +21,8 @@
         <activity android:name=".Webloading"></activity>
         <activity android:name=".listjson.ListAct"></activity>
         <activity android:name=".volleyrequestpack.VolleyNewAct"></activity>
+        <activity android:name=".ui_components.UiComponentAct"></activity>
+        <activity android:name=".customrecycle.CustomRecycleAct"></activity>
     </application>
 
 </manifest>
