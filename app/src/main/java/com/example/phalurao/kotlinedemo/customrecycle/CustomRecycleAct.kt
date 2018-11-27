@@ -23,6 +23,7 @@ class CustomRecycleAct:AppCompatActivity() {
         itemMy.add(MyData("Phalguna",BitmapFactory.decodeResource(resources,R.drawable.ic_launcher)))
         itemMy.add(MyData("Phalguna",BitmapFactory.decodeResource(resources,R.drawable.ic_launcher)))
 
+        
         val adapter=RecyclerViewAdapter(itemMy)
         myrecycleView.adapter=adapter
 
