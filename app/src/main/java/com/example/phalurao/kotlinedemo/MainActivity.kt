@@ -10,17 +10,20 @@ import com.example.phalurao.kotlinedemo.customrecycle.CustomRecycleAct
 import com.example.phalurao.kotlinedemo.listjson.ListAct
 import com.example.phalurao.kotlinedemo.ui_components.UiComponentAct
 import com.example.phalurao.kotlinedemo.volleyrequestpack.VolleyNewAct
-import kotlinx.android.synthetic.main.web_layout.view.*
+import kotlinx.android.synthetic.main.activity_main.*;
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+
         val webtext=findViewById(R.id.load_webview)as TextView
         val listText=findViewById(R.id.list_view)as TextView
         val uiComponent=findViewById<TextView>(R.id.ui_component)
         val customRecy=findViewById<TextView>(R.id.custom_recy)
+      //  video_message.text="Sample Data"
         webtext.setOnClickListener(object :View.OnClickListener{
             override fun onClick(v: View?) {
                 val intent = Intent(applicationContext, VolleyNewAct::class.java)

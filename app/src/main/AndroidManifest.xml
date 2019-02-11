@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.example.phalurao.kotlinedemo">
-   <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
             android:name=".App"
@@ -18,11 +19,12 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".Webloading"></activity>
-        <activity android:name=".listjson.ListAct"></activity>
-        <activity android:name=".volleyrequestpack.VolleyNewAct"></activity>
-        <activity android:name=".ui_components.UiComponentAct"></activity>
-        <activity android:name=".customrecycle.CustomRecycleAct"></activity>
+        <activity android:name=".Webloading"/>
+        <activity android:name=".listjson.ListAct"/>
+        <activity android:name=".volleyrequestpack.VolleyNewAct"/>
+        <activity android:name=".ui_components.UiComponentAct"/>
+        <activity android:name=".customrecycle.CustomRecycleAct"/>
+
     </application>
 
 </manifest>
