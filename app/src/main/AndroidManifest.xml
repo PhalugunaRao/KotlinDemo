@@ -24,6 +24,8 @@
         <activity android:name=".volleyrequestpack.VolleyNewAct"/>
         <activity android:name=".ui_components.UiComponentAct"/>
         <activity android:name=".customrecycle.CustomRecycleAct"/>
+        <activity android:name=".plursight.DemoMainActivity"/>
+        <activity android:name=".plursight.DisplayActivity"/>
 
     </application>
 

@@ -81,4 +81,16 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"/>
 
+    <TextView
+            android:id="@+id/plursight_view"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Plursight"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+
 </LinearLayout>
